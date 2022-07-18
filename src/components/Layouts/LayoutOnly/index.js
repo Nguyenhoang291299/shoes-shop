@@ -1,12 +1,10 @@
-import Header from "../LayoutOnly/Header";
-import Footer from "../LayoutOnly/Footer";
-import Content from "./Content";
+import Header from "./Header";
+import Footer from "./Footer";
 
 function DefaultLayout({children}) {
     return (
         <>
             <Header/>
-            <Content/>
             <Footer/>
         </>
     )
